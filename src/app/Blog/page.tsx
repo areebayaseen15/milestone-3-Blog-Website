@@ -6,7 +6,7 @@ import BlogCard from "../component/BlogCard";
 const data = [
   {
     id: 1,
-    image: "/Assets/Blog1.webp",
+    image: "/Assets/maxico.webp",
     title: "Mexico: A Culinary Journey",
     description:
       "When you think of Mexico, images of sun-soaked beaches, vibrant festivals, and colorful traditions may come to mind. But there’s another aspect of Mexican culture that holds an irresistible charm—its food.....",
