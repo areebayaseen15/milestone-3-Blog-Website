@@ -100,7 +100,7 @@ export const blogs = [
     //Blog 1
   {
     id: 1,
-    image: "/Assets/Blog1.webp",
+    image: "/Assets/maxico.webp",
     title: "Mexico: A Culinary Journey",
     description:
       "When it comes to captivating the senses, Mexico stands unparalleled with its vibrant culture, rich history, and, of course, its extraordinary cuisine. Mexican food is more than just a feast for the taste buds—it's a celebration of the country's diverse regions, indigenous traditions, and creative spirit.",
@@ -131,7 +131,7 @@ Bon appétit—or as they say in Mexico, ¡buen provecho!`
     //Blog 2
   {
     id: 2,
-    image: "/Assets/Blog2.webp",
+    image: "/Assets/Budget-Travel.webp",
     title: "5 Tips For Budget Travelers",
     description:
       "Traveling on a budget doesn't mean compromising on experiences or fun. It’s about being resourceful and smart with your money to make every penny count. Whether you’re a seasoned backpacker or a first-time traveler, these tips will help you explore the world without breaking the bank.",
@@ -229,7 +229,7 @@ Whether you're a seasoned diver or a novice looking to explore the deep blue, th
 //Blog 4
 {
   id: 4,
-  image: "/Assets/Blog4.webp",
+  image: "/Assets/markets.webp",
   title: "5 Incredible Food Markets Around the World",
   description:
     "Food markets are the heart and soul of many cultures, offering a sensory experience that goes beyond just eating. From the vibrant colors of fresh produce to the tantalizing smells of street food, these markets provide an authentic and immersive way to explore local cuisine and culture. Whether you’re a foodie on a quest for new flavors or a traveler looking to experience a city’s vibe, here are five incredible food markets from around the world that you should visit.",
