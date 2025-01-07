@@ -6,9 +6,9 @@ import { FaRegCommentAlt } from "react-icons/fa";
 
 const blogPosts = [
   { id: 1, title: "Mexico: A Culinary Journey", image: "/Assets/blog1.webp" },
-  { id: 2, image: "/Assets/Blog2.webp", title: "5 Tips For Budget Travelers" },
+  { id: 2, image: "/Assets/Budget-Travel.webp", title: "5 Tips For Budget Travelers" },
   { id: 3, image: "/Assets/diving-spots.webp", title: "The Most Amazing Diving Spots" },
-  { id: 4, image: "/Assets/Blog4.webp", title: "5 Food Markets Around the World" },
+  { id: 4, image: "/Assets/markets.webp", title: "5 Food Markets Around the World" },
   { id: 5, image: "/Assets/hikes.webp", title: "Top Hikes in Australia" },
   { id: 6, image: "/Assets/trip.webp", title: "Asia Trip: Off the Beaten Path" },
 ];
