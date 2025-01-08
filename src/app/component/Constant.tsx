@@ -16,7 +16,7 @@ link : "/AboutMe",
     },
     {
         title : "Contact",
-        link : "#contact",
+        link : "/Contact",
     }
 ];
 
@@ -168,7 +168,7 @@ Happy traveling! 🌍✈️
 //Blog 3
 {
 id: 3,
-image: "/Assets/diving-spots.webp",
+image: "/Assets/diving.webp",
 title: "The Most amazing Diving Spots",
 description:
   "Diving opens up a whole new world beneath the surface, offering divers a glimpse into colorful coral reefs, underwater caves, and shipwrecks filled with history. If you’re a diver or an adventure seeker looking for the next great underwater experience, the world is full of exceptional diving spots that promise unforgettable encounters with marine life and stunning underwater landscapes. Here are some of the most amazing diving spots around the globe.",
