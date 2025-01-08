@@ -50,7 +50,7 @@ export default function BlogDetail({ params }: Props) {
 
   return (
     <div>
-      <div className="px-5 md:px-10 lg:px-28 xl:px-40 pt-10 lg:pt-20 flex flex-col-reverse lg:flex-row gap-10 xl:gap-20">
+      <div className="px-5 md:px-10 lg:px-28 xl:px-40 pt-10 lg:pt-40 flex flex-col-reverse lg:flex-row gap-10 xl:gap-20">
         <div className="flex flex-col border shadow-xl border-gray-400 w-full xl:w-[700px] mt-5 cursor-pointer rounded hover:shadow-lg transition duration-300">
           <div className="flex px-5 pt-10 pb-2">
             <SlUser className="bg-gray-400 text-gray-500 rounded-full text-4xl" />
