@@ -6,6 +6,7 @@ import SearchInput from "./Search";
 import { NavBarList } from "./Constant";
 import Link from "next/link";
 import { HiMenuAlt2 } from "react-icons/hi";
+import { IoMdClose } from "react-icons/io";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,6 +33,9 @@ const Header = () => {
         </div>
 
 
+    
+
+      
         {/* Mobile Menu Icon */}
         <HiMenuAlt2
           className="inline-flex md:hidden cursor-pointer text-2xl hoverEffect hover:text-darkOrange"
@@ -40,12 +44,27 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="absolute top-0 left-0 w-full bg-[#2e302e] text-white z-50 flex flex-col items-center p-5 md:hidden">
-            {NavBarList?.map((item) => (
-              <Link key={item?.title} href={item?.link} className="navbarItem py-2">
-                {item?.title}
-              </Link>
-            ))}
+        <div className="absolute top-0 left-0 w-full bg-[#2e302e] text-white z-50 flex flex-col  p-5 md:hidden">
+            {/* Close Icon */}
+            <div className="flex justify-end ">
+              <IoMdClose
+                className="text-3xl cursor-pointer hoverEffect hover:text-darkOrange"
+                onClick={toggleMenu}
+              />
+            </div>
+            {/* Menu Links */}
+            <div className=" flex flex-col items-center gap-5">
+              {NavBarList?.map((item) => (
+                <Link
+                  key={item?.title}
+                  href={item?.link}
+                  className="navbarItem text-lg"
+                  onClick={toggleMenu} // Close menu when a link is clicked
+                >
+                  {item?.title}
+                </Link>
+              ))}
+            </div>
           </div>
         )}
       </Container>
