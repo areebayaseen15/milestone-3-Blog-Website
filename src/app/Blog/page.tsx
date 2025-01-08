@@ -20,7 +20,7 @@ const data = [
   },
   {
     id: 3,
-    image: "/Assets/diving.webp",
+    image: "/Assets/diving-spots.webp",
     title: "The Most Amazing Diving Spots",
     description:
       "If you’re a fan of the ocean and all its wonders, diving is an experience like no other. From colorful coral reefs to mysterious shipwrecks, the underwater world is full of surprises....",
