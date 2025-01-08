@@ -1,4 +1,3 @@
-"use client";
 
 import React from 'react';
 import Image from "next/image";
@@ -7,25 +6,26 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 const page = () => {
   return (
     <div className="px-4 md:px-8">
-      <h1 className="mt-10 text-center text-slate-700 text-4xl font-bold">
+      <h1 className="mt-40 md:mt-48 text-center text-slate-700 text-4xl font-bold">
         Work with Me
       </h1>
 
-      <div className="flex flex-wrap md:flex-nowrap justify-center max-w-5xl mx-auto shadow-gray-400 border-2 border-gray-700 my-10">
+ 
+      <div className='flex flex-col lg:flex-row justify-center w-full max-w-[1050px] mx-auto shadow-gray-400 border-2 border-gray-700 my-10'>
   <div className="flex-shrink-0 w-full sm:w-auto">
     <Image
       src="/Assets/sea.avif"
       alt="image"
       width={500}
       height={500}
-      className="object-cover w-full md:w-[520px]"
+      className="object-cover w-full  lg:w-[600px]"
     />
   </div>
-  <div className="bg-[#8d5a3a] px-5 md:px-10 py-10 md:py-20 text-white text-base sm:text-lg md:text-2xl font-bold w-full md:w-[700px]">
-    <h1>
+  <div className='bg-[#8d5a3a] px-10 py-10 lg:py-15 text-white text-xl lg:text-2xl font-bold w-full lg:w-[700px]'>
+  <h1 className='text-xl lg:text-2xl'>
       I am passionate about sharing my knowledge, travel experience, and the useful tips I’ve learned on the trail.
     </h1>
-    <p className="text-sm font-normal leading-6 mt-5 tracking-[2%]">
+    <p className="text-sm font-normal leading-6 tracking-[2%] mt-5">
       I am deeply passionate about sharing the knowledge and experiences I’ve gained from my travels. Every journey has taught me valuable lessons, and I love passing along tips that can make someone else’s adventures smoother and more enjoyable. Whether it’s uncovering hidden gems or navigating challenges on the trail, my goal is to inspire and guide fellow travelers. Through my stories and insights, I hope to spark curiosity and a sense of adventure in everyone who reads them.
     </p>
   </div>
