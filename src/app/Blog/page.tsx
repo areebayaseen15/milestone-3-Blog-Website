@@ -20,7 +20,7 @@ const data = [
   },
   {
     id: 3,
-    image: "/Assets/diving-spots.webp",
+    image: "/Assets/diving.webp",
     title: "The Most Amazing Diving Spots",
     description:
       "If you’re a fan of the ocean and all its wonders, diving is an experience like no other. From colorful coral reefs to mysterious shipwrecks, the underwater world is full of surprises....",
@@ -65,15 +65,15 @@ const data = [
 export default function Blog() {
   return (
     <div className="px-4 md:px-8 lg:px-16 xl:px-40">
-      <h1 className="mt-10 text-center text-slate-700 text-4xl font-bold">
+      <h1 className=" mt-40  text-center text-slate-700 text-4xl font-bold">
         Blog
       </h1>
       <div>
         <div className="flex gap-5 xl:gap-10 mt-10 justify-center md:justify-start md:ml-10">
-          <Link href="#" className="text-slate-600 hover:text-slate-800">
+          <Link href="/Blog" className="text-slate-600 hover:text-[#8d5a3a]">
             All Posts
           </Link>
-          <Link href="#" className="text-slate-600 hover:text-slate-800">
+          <Link href="/Recent" className="text-slate-600 hover:text-[#8d5a3a]">
             Recent
           </Link>
         </div>
