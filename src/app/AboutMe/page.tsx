@@ -4,7 +4,7 @@ import Image from "next/image"
 const AboutMe = () => {
   return (
     <div>
-      <h1 className="mt-10 text-center text-slate-700 text-4xl font-bold">
+      <h1 className="mt-40 md:mt-48 text-center text-slate-700 text-4xl font-bold">
         About Me
       </h1>
 
